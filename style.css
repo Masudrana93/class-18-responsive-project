@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.mobilephone{
+    border: 3px solid rgb(0, 195, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+}
+
+.mobilephone img{
+    width: 100%;
+}
+
